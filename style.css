@@ -1,0 +1,57 @@
+:root{
+  --primary:#D91870;     /* Magenta/Pink */
+  --secondary:#2C2C68;   /* Deep Indigo */
+  --text:#FFFFFF;        /* White */
+}
+html,body{height:100%;}
+body{
+  background: var(--secondary);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.brand-logo{width:44px;height:44px;object-fit:contain}
+.brand-name{font-weight:700; letter-spacing:.02em;}
+.hero-hi{font-weight:800; text-transform:uppercase; letter-spacing:.06em; line-height:1.05;}
+.hero-thanks{font-weight:800; color:var(--primary);}
+.card-soft{
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(0,0,0,.18);
+}
+.meta-row{display:flex;justify-content:space-between;gap:12px;}
+.meta-title{opacity:.9; font-weight:600;}
+.divider{height:1px;background:rgba(255,255,255,.16);margin:12px 0;}
+.badge-type{
+  display:inline-block;
+  background: rgba(217,24,112,.12);
+  border:1px solid rgba(217,24,112,.45);
+  color: var(--text);
+  border-radius: 999px;
+  padding:.35rem .75rem;
+  font-weight:600;
+  font-size:.9rem;
+}
+.btn-primary-pink{
+  background:var(--primary);
+  border-color:var(--primary);
+  color:#fff;
+}
+.btn-primary-pink:hover{background:#b8145d;border-color:#b8145d;}
+.btn-outline-pink{
+  border-color:var(--primary);
+  color:var(--primary);
+  background:transparent;
+}
+.btn-outline-pink:hover{
+  background:var(--primary);
+  color:#fff;
+}
+a{color:var(--text); text-decoration:none;}
+a:hover{text-decoration:underline;}
+.lead-copy{opacity:.9;}
+@media (max-width: 576px){
+  .hero-hi{font-size:1.8rem;}
+  .hero-thanks{font-size:2rem;}
+  .meta-row{flex-direction:column;align-items:flex-start;}
+}
