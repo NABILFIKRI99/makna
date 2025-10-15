@@ -21,10 +21,10 @@
 1. Copy the files in `theme/` into your active theme folder  
    (`wp-content/themes/your-theme/`).
 2. Visit (example):  
-   `/?FloatAmount=88&varName=Monkey%20D%20Luffy&ref_id=abABq123&frequency=Monthly`
+   `/?FloatAmount=88&varName=Monkey%20D%20Luffy&ref_id=abABq123`
 3. You should see:
    - Name in the hero (“HI MONKEY D LUFFY,”)
-   - Amount: `RM88.00 / Monthly`
+   - Amount: `RM88.00`
    - Reference ID + current date/time
    - Donor Type badge (based on amount)
 
